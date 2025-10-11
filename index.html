@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos Navarro | Alquiler de artículos para fiestas</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- 🟦 Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Alquiladora GEMA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 🟩 Hero Section -->
+  <header id="inicio" class="bg-light text-dark text-center py-5 mt-5">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Te haremos brillar✨🎉</h1>
+      <p class="lead">Alquiler de mesas, sillas, inflables y más.</p>
+      <a href="#contacto" class="btn btn-primary btn-lg mt-3">Solicita una cotización</a>
+    </div>
+  </header>
+
+  <!-- 🟨 Servicios -->
+  <section id="servicios" class="py-5 bg-white">
+    <div class="container">
+      <h2 class="text-center mb-4">Nuestros servicios</h2>
+      <div class="row g-4">
+        
+        <!-- Tarjeta 1 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/Paquete_celeste.jpeg" class="card-img-top" alt="Mesas y sillas">
+            <div class="card-body">
+              <h5 class="card-title">Mesas y Sillas</h5>
+              <p class="card-text">Amplia variedad de mesas y sillas para todo tipo de evento.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/Paquete_marfil.jpeg" class="card-img-top" alt="Inflables">
+            <div class="card-body">
+              <h5 class="card-title">Inflables y Brincolines</h5>
+              <p class="card-text">Diversión asegurada para los más pequeños con inflables seguros y coloridos.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/Paquete_celeste.jpeg" class="card-img-top" alt="Loza y decoración">
+            <div class="card-body">
+              <h5 class="card-title">Loza y Decoración</h5>
+              <p class="card-text">Detalles que marcan la diferencia: vajilla, manteles y centros de mesa.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 🟥 Contacto -->
+  <section id="contacto" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contáctanos</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form id="contactForm">
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="mb-3">
+              <label for="telefono" class="form-label">Teléfono</label>
+              <input type="tel" class="form-control" id="telefono" required>
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⚫ Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Alquiladora GEMA | Todos los derechos reservados</p>
+  </footer>
+
+  <!-- JS Bootstrap + Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

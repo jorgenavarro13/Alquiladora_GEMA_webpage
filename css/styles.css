@@ -1,0 +1,28 @@
+body {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-image: url('../img/evento.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+#contacto {
+  background-color: #f8f9fa;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
