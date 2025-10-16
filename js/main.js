@@ -1,15 +1,12 @@
-ç
-document.getElementById("contactForm").addEventListener("submit", function(e) {
-  e.preventDefault();
+  document.querySelectorAll('.carousel').forEach(carousel => {
+    const bsCarousel = new bootstrap.Carousel(carousel, {
+      interval: 2500, // cambia cada 2 segundos
+      pause: false
+    });
 
-  const nombre = document.getElementById("nombre").value;
-  const telefono = document.getElementById("telefono").value;
-  const mensaje = document.getElementById("mensaje").value;
+    // Cuando el usuario pasa el mouse, inicia el movimiento
+    carousel.addEventListener('mouseenter', () => bsCarousel.cycle());
 
-  const numeroDestino = "+527713266491"; // tu número con clave de país (52 = México)
-  const texto = `Hola, soy ${nombre}. Tel: ${telefono}. ${mensaje}`;
-  const url = `https://wa.me/${numeroDestino}?text=${encodeURIComponent(texto)}`;
-
-  window.open(url, "_blank");
-  this.reset();
-});
+    // Cuando el mouse sale, se detiene
+    carousel.addEventListener('mouseleave', () => bsCarousel.pause());
+  });
