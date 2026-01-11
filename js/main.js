@@ -1,6 +1,6 @@
   document.querySelectorAll('.carousel').forEach(carousel => {
     const bsCarousel = new bootstrap.Carousel(carousel, {
-      interval: 2500, // cambia cada 2 segundos
+      interval: 2500,
       pause: false
     });
 
