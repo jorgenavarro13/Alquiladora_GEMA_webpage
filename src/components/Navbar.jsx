@@ -1,12 +1,13 @@
 import {useLayoutEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/img/logo_alquiladora2.png';
 const Navbar = () => {
   
     return (
         <div>
             <header className="site-header">
             <div className="site-container header-inner">
-                <img className="site-logo" src="/src/assets/img/logo_alquiladora2.png" alt="Logo" />
+                <img className="site-logo" src={logo} alt="Logo" />
 
                 <ul className="navbar">
                     <li><Link to="/">Home</Link></li>

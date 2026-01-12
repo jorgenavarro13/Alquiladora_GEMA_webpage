@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
+import Services from './components/Services';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         <div className="site-container">
           <Routes>
             <Route path='/' element={<Home/>} />
-            <Route path='/services' element={<h1>Services Page</h1>} />
+            <Route path='/services' element={<Services />} />
             <Route path='/about' element={<About />} />
           </Routes>
         </div>
