@@ -10,4 +10,5 @@ export default defineConfig({
       },
     }),
   ],
+  base:'/Alquiladora_GEMA_webpage/',
 })

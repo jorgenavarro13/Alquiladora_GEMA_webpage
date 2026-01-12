@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BrowserRouter , Route, Routes } from 'react-router-dom';
+import { HashRouter , Route, Routes } from 'react-router-dom';
 import './App.css'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -10,7 +10,7 @@ import Services from './components/Services';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
 
       <main className="site-main">
@@ -24,7 +24,7 @@ function App() {
       </main>
 
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
