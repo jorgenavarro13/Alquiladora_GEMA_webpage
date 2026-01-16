@@ -6,7 +6,8 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
-
+import Contact from './components/Contact';
+import AdminDashBoard from './components/AdminDashBoard';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
             <Route path='/' element={<Home/>} />
             <Route path='/services' element={<Services />} />
             <Route path='/about' element={<About />} />
+            <Route path='/services' element={<Services/>}/>
+            <Route path='/contact'element={<Contact/>}/>
+            <Route path='/admin' element={<AdminDashBoard/>}/>
           </Routes>
         </div>
       </main>
