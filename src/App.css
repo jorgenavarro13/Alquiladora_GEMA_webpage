@@ -1,3 +1,6 @@
+@import "tailwindcss"; 
+@import 'tailwind-animations';
+
 #root {
   width: 100%;
   max-width: none;
