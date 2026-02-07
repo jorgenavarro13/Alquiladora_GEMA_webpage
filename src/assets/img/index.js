@@ -11,6 +11,7 @@ import PaqueteCeleste from './Paquete_celeste.avif';
 import Promocion from './Promocion.jpeg';
 import PaqueteRey from './Paquete_rey.avif';
 import PaqueteNube from './Paquete_nube.avif';
+import Diamante from './diamante.png';
 
 export {
     EventoTiffany,
@@ -25,4 +26,5 @@ export {
     Promocion,
     PaqueteRey,
     PaqueteNube,
+    Diamante
 };
