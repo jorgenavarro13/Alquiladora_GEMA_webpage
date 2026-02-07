@@ -22,7 +22,7 @@ const Hero = () => {
           Te haremos brillar 💎
         </h1>
         */}
-        
+
         <p className="font-google-sans text-xl md:text-2xl text-gray-100 max-w-2xl">
           Alquiler de mesas, sillas, inflables y más para tus eventos especiales
         </p>

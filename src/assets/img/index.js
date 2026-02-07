@@ -7,8 +7,10 @@ import LozaBase from './Loza_base.jpg';
 import LozaTresTiempos from './Loza_tres_tiempos.jpg';
 import Multicastillo from './Multicastillo.jpeg';
 import PaqueteMarfil from './Paquete_marfil.jpeg';
-import PaqueteCeleste from './Paquete_celeste.jpeg';
+import PaqueteCeleste from './Paquete_celeste.png';
 import Promocion from './Promocion.jpeg';
+import PaqueteRey from './Paquete_rey.png';
+import PaqueteNube from './Paquete_nube.png';
 
 export {
     EventoTiffany,
@@ -20,5 +22,7 @@ export {
     Multicastillo,
     PaqueteMarfil,
     PaqueteCeleste,
-    Promocion
+    Promocion,
+    PaqueteRey,
+    PaqueteNube,
 };

@@ -1,0 +1,48 @@
+{
+  "hash": "c17b9ca2",
+  "configHash": "a2f7cc12",
+  "lockfileHash": "7e1e5d39",
+  "browserHash": "06472b9a",
+  "optimized": {
+    "motion/react": {
+      "src": "../../node_modules/motion/dist/es/react.mjs",
+      "file": "motion_react.js",
+      "fileHash": "42dea2a2",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "d8ac8df8",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "631316ab",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "40c9f455",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "af779ca9",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "react-BhPhf8gb": {
+      "file": "react-BhPhf8gb.js",
+      "isDynamicEntry": false
+    },
+    "react-dom-DBrcVFdG": {
+      "file": "react-dom-DBrcVFdG.js",
+      "isDynamicEntry": false
+    }
+  }
+}
