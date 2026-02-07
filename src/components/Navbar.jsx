@@ -5,11 +5,11 @@ const Navbar = () => {
   
     return (
         <div>
-            <header className="site-header">
+            <header>
             <div className="site-container header-inner">
                 <img className="site-logo" src={logo} alt="Logo" />
 
-                <ul className="navbar">
+                <ul className="navbar font-google-sans">
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/services">Services</Link></li>

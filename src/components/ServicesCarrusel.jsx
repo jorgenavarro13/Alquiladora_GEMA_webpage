@@ -1,41 +1,27 @@
 import {useState} from 'react';
 import {PaqueteMarfil, PaqueteCeleste, LozaTresTiempos} from '@/assets/img/index.js';
 import '../App.css';
+import FlowingMenu from './../helpers/FlowingMenu.jsx';
 
 const ServicesCarrusel = () => {
-    const [currentIndex, setCurrentIndex] = useState(0);
+  const demoItems = [
+    { link: '#', text: 'Mesas y sillas', image: PaqueteMarfil },
+    { link: '#', text: 'Carpas', image: PaqueteCeleste },
+    { link: '#', text: 'Brincolines', image: LozaTresTiempos },
+  ];
 
-    const products = [
-        { id: 1, image: PaqueteMarfil, name: "Paquete Marfil" },
-        { id: 2, image: PaqueteCeleste, name: "Paquete Celeste" },
-        { id: 3, image: LozaTresTiempos, name: "Loza Tres Tiempos" },
-    ];
-
-    const next = () => {
-        setCurrentIndex((prev) =>
-            prev === products.length - 1 ? 0 : prev + 1
-        );
-    };
-    
-
-
-    const prev = () => {
-        setCurrentIndex((prev) =>
-            prev === 0 ? products.length - 1 : prev - 1
-    );
-    };
-   return (
-        <div className="carousel">
-            <button onClick={prev}>‹</button>
-
-            <img
-            src={products[currentIndex].image}
-            alt={products[currentIndex].name}
-            />
-
-            <button onClick={next}>›</button>
+  return (
+        <div style={{ height: '600px', position: 'relative' }}>
+          <FlowingMenu items={demoItems}
+          speed={15}
+          textColor="#ffffff"
+          bgColor="#27272a"
+          marqueeBgColor="#ffffff"
+          marqueeTextColor="#060010"
+          borderColor="#ffffff"
+        />
         </div>
         );
-    }
+}
 
 export default ServicesCarrusel;

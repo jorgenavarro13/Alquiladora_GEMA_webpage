@@ -6,8 +6,8 @@ const Home = () => {
 
     return (
         <div>   
-            <Hero />
-            <ServicesHome />
+            <Hero className="timeline-view animate-zoom-in animate-range-cover" />
+            <ServicesHome className="timeline-view animate-zoom-in animate-range-cover"/>
         </div>
     )
 }

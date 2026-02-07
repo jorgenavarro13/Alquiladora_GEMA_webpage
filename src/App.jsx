@@ -14,7 +14,18 @@ function App() {
     <HashRouter>
       <Navbar />
 
-      <main className="site-main">
+      <main className=" flex-1
+    w-full
+    block
+    box-border
+    py-14
+    min-h-[calc(100vh-(var(--nav-height)*2))]
+    bg-gradient-to-b
+    from-gray-200
+    via-gray-300
+    to-gray-500
+    text-gray-900 
+    ">
         <div className="site-container">
           <Routes>
             <Route path='/' element={<Home/>} />
