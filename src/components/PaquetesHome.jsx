@@ -1,5 +1,4 @@
 import React from 'react';
-import FlyingPosters from './FlyingPosters'
 import {PaqueteMarfil, PaqueteCeleste, LozaTresTiempos, EventoTiffany, PaqueteRey, PaqueteNube, LozaBase} from '@/assets/img/index.js';
 
 const Home = () => {
@@ -8,11 +7,11 @@ const Home = () => {
     return (
         <div className="pt-4 flex flex-col items-center justify-center gap-8">   
                 
-                <h1 className="text-5xl md:text-7xl font-google-sans font-bold text-w leading-tight">
+                <h1 className="text-center text-5xl md:text-7xl font-google-sans font-bold text-w leading-tight">
                     Nuestros paquetes 
                 </h1>
                
-                <div className="grid grid-cols-3 grid-rows-2 gap-10 w-full">
+                <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-6 md:gap-10 w-full justify-items-center">
                     <img src={PaqueteMarfil} alt="Paquete Mesas y Sillas" className=" animate-fade-in-up rounded-xl shadow-xl m-4 col-span-1 hover:scale-105 hover:contrast-125 transition"/>
                     <img src={PaqueteCeleste} alt="Paquete Mesas y Sillas" className="animate-fade-in-up rounded-xl shadow-xl m-4 col-span-1 hover:scale-105 hover:contrast-125 transition"/>
                     <img src={PaqueteRey} alt="Paquete Mesas y Sillas" className="animate-fade-in-up rounded-xl shadow-xl m-4 col-span-1 hover:scale-105 hover:contrast-125 transition"/>
