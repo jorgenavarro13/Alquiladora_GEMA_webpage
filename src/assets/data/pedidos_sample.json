@@ -1,0 +1,40 @@
+[
+  {
+    "id_pedido": 1,
+    "fecha": "2024-03-15",
+    "hora": "14:00",
+    "cliente": { "nombre": "Ricardo Mendoza", "telefono": "7711234567" },
+    "direccion": { "fraccionamiento": "Viñedos", "privada": "Circuito de la Vid", "municipio": "Zempoala", "cp": "43845" },
+    "items": [
+      { "producto": "Paquete Celeste", "cantidad": 2, "precio_unitario": 120 },
+      { "producto": "Inflable Multicastillo", "cantidad": 1, "precio_unitario": 500 }
+    ],
+    "total": 740,
+    "estado": "Confirmado"
+  },
+  {
+    "id_pedido": 12,
+    "fecha": "2024-03-29",
+    "hora": "10:00",
+    "cliente": { "nombre": "Mónica Hernández", "telefono": "7715554433" },
+    "direccion": { "fraccionamiento": "Viñedos", "privada": "Privada Syrah", "municipio": "Zempoala", "cp": "43845" },
+    "items": [
+      { "producto": "Paquete Rey", "cantidad": 3, "precio_unitario": 140 },
+      { "producto": "Inflable Multicolor", "cantidad": 1, "precio_unitario": 700 }
+    ],
+    "total": 1120,
+    "estado": "En Ruta"
+  },
+  {
+    "id_pedido": 13,
+    "fecha": "2024-03-30",
+    "hora": "17:00",
+    "cliente": { "nombre": "Diego Bernal", "telefono": "7717778899" },
+    "direccion": { "fraccionamiento": "Olivenza", "privada": "Cerrada Luna", "municipio": "Zempoala", "cp": "43845" },
+    "items": [ { "producto": "Jenga gigante", "cantidad": 2, "precio_unitario": 250 } ],
+    "total": 500,
+    "estado": "Confirmado"
+  }
+]
+
+
